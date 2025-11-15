@@ -39,10 +39,17 @@ label {
     color: red;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+    body {
+        width: 80%;
+    }
     .input {
         width: 100%;
+    }
+}
 
+@media (max-width: 800px) {
+    .input {
         grid-template:  1fr 1fr 1fr 1fr 1fr / 1fr;
 
         text-align: left;
