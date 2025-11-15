@@ -86,7 +86,7 @@ window.addEventListener('load', function() {
 
                     // Add elevation data
                     let ele = gpxDOM.createElement('ele');
-                    ele.innerHTML = line[2];
+                    ele.innerHTML = line[3];
                     trkpt.appendChild(ele);
 
                     // Add this point to track segment
